@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<link rel="shortcut icon" href="./favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="GF" />
+<link rel="manifest" href="./site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gaming Forge - Explore the latest games, consoles, and gaming peripherals.">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact Us - Gaming Forge</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo Image">
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navlink">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./upcoming.html">Upcoming Games</a></li>
+                <li><a href="./console.html">Consoles</a></li>
+                <li><a href="./games.html">Games</a></li>
+                <li><a href="./quaries.html">Queries & FAQs</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./pcparts.html">PC Components</a></li>
+                <li><a href="./checkout.html">checkout</a></li>
+            </ul>
+        </nav>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.navlink');
+
+                hamburger.addEventListener('click', function () {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+    </header>
+    <main>
+        <h1>CONTACT US</h1>
+        <section>
+            <h2>Our Locations</h2>
+            <div class="location">
+                <h3>Colombo</h3>
+                <p>Owner: Chirandith Mindiw</p>
+                <p>Manager: Miyuru Binara</p>
+                <p>Phone: 0761335428</p>
+                <p>Email: miyuru123@gmail.com</p>
+            </div>
+            <div class="location">
+                <h3>Kandy</h3>
+                <p>Owner: Chirandith Mindiw</p>
+                <p>Manager: Vishal Lawrence</p>
+                <p>Phone: 0759047373</p>
+                <p>Email: vishal123@gmail.com</p>
+            </div>
+            <div class="location">
+                <h3>Mathale</h3>
+                <p>Owner: Chirandith Mindiw</p>
+                <p>Manager: Amri Faizal</p>
+                <p>Phone: 0763121596</p>
+                <p>Email: amri123@gmail.com</p>
+            </div>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="./img/logo.png" alt="logo">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="./contact.html">Contact us</a></li>
+                    <li><a href="./games.html">Games</a></li>
+                    <li><a href="./consoles.html">Consoles</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                Gamingforge © 2024- All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

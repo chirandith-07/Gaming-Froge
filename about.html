@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="GF" />
+    <link rel="manifest" href="./site.webmanifest" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gaming Forge - Explore the latest games, consoles, and gaming peripherals.">
+    <link rel="stylesheet" href="./about.css">
+    <title>Gaming Forge</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo Image">
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navlink">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./upcoming.html">Upcoming Games</a></li>
+                <li><a href="./console.html">Consoles</a></li>
+                <li><a href="./games.html">Games</a></li>
+                <li><a href="./quaries.html">Queries & FAQs</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./pcparts.html">PC Components</a></li>
+                <li><a href="./checkout.html">checkout</a></li>
+            </ul>
+        </nav>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.navlink');
+
+                hamburger.addEventListener('click', function () {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="int">
+                <h5 id="title">ABOUT US</h5>
+            </div>
+        </div>
+        <section class="intpara">
+            <h2>Welcome to Gaming Forge!</h2>
+            <p>Your ultimate destination for all 
+                things gaming. At Gaming Forge, we are passionate about
+                 bringing you the latest news, in-depth reviews,
+                  and expert insights into the world of video games.
+                  Whether you're a casual gamer or a hardcore enthusiast, 
+                  our platform is designed to keep you informed and 
+                  entertained. Dive into our comprehensive guides,
+                   join our vibrant community, and stay ahead of the 
+                   curve with the hottest trends and releases. 
+                   Forge your gaming journey with us and experience 
+                   the thrill of the game like never before</p>
+        </section>
+        <section class="branchsum">
+            <h2>Our Branches</h2>
+            <div class="branch">
+                <h3>City Center</h3>
+                <img src="./img/city.jpg" alt="City Center Branch">
+                <p>Located in the heart of downtown, our City Center branch offers a wide range of gaming products and accessories. Open from 10 AM to 8 PM, it's the perfect place to explore the latest in gaming technology.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9630579153168!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b1f1f1f1f1!2sCity%20Center!5e0!3m2!1sen!2sau!4v1611818391234!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="branch">
+                <h3>Westside</h3>
+                <img src="./img/westside.webp" alt="Westside Branch">
+                <p>Our Westside branch, located in the West Mall, is open from 11 AM to 9 PM. It features a spacious layout with dedicated sections for consoles, games, and accessories.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9630579153168!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b1f1f1f1f1!2sWestside!5e0!3m2!1sen!2sau!4v1611818391234!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="branch">
+                <h3>East End</h3>
+                <img src="./img/east.webp" alt="East End Branch">
+                <p>Located in the East End district, this branch is open from 9 AM to 7 PM. It offers a cozy atmosphere with a wide selection of games and gaming accessories.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9630579153168!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b1f1f1f1f1!2sEast%20End!5e0!3m2!1sen!2sau!4v1611818391234!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="branchtable">
+            <h2>Branch Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Branch</th>
+                        <th>Location</th>
+                        <th>Opening Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>City Center</td>
+                        <td>Downtown</td>
+                        <td>10 AM - 8 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Westside</td>
+                        <td>West Mall</td>
+                        <td>11 AM - 9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>East End</td>
+                        <td>East End District</td>
+                        <td>9 AM - 7 PM</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Visit us at any of our branches for the best gaming experience!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="./img/logo.png" alt="logo">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="./contact.html">Contact us</a></li>
+                    <li><a href="./games.html">Games</a></li>
+                    <li><a href="./consoles.html">Consoles</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                Gamingforge © 2024- All rights reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

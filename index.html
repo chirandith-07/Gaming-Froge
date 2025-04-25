@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<link rel="shortcut icon" href="./favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="GF" />
+<link rel="manifest" href="./site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gaming Forge - Explore the latest games, consoles, and gaming peripherals.">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gaming Forge</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo Image">
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navlink">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./upcoming.html">Upcoming Games</a></li>
+                <li><a href="./console.html">Consoles</a></li>
+                <li><a href="./games.html">Games</a></li>
+                <li><a href="./quaries.html">Queries & FAQs</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./pcparts.html">PC Components</a></li>
+                <li><a href="./checkout.html">checkout</a></li>
+            </ul>
+        </nav>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.navlink');
+
+                hamburger.addEventListener('click', function () {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="int">
+                <h5 id="title">Gaming Forge</h5>
+                <p id="hero-text">Be a pro Gamer!</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>Our Categories</h2>
+            <div class="sectbtn">
+                <a href="upcoming.html">
+                    <button>Latest Games</button>
+                </a>
+                <a href="console.html">
+                    <button>Consoles</button>
+                </a>
+                <a href="games.html">
+                    <button>Games</button>
+                </a>
+            </div>
+        </section>
+        <section class="featured">
+            <h2 class="s2e">Featured</h2>
+            <div class="featured-content">
+                <p>Discover the top-rated games of the season!</p>
+            </div>
+        </section>
+
+        <section class="newR">
+            <h2>New Releases</h2>
+            <div class="games-container">
+                <div class="game">
+                    <img src="img/cyber.jpg" alt="Cyberpunk">
+                    <h3>Cyberpunk</h3>
+                    <button>Buy Now</button>
+                </div>
+                <div class="game">
+                    <img src="img/cod.jpg" alt="Call of Duty">
+                    <h3>Call of Duty</h3>
+                    <button>Buy Now</button>
+                </div>
+                <div class="game">
+                    <img src="img/killers_game.webp" alt="Killers Game">
+                    <h3>Killers Game</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <h2>Customer feedbacks</h2>
+            <div class="feedback-containers">
+                <div class="feedbk">
+                    <img src="img/f1.jpg">
+                    <h4>Josh Gates</h4>
+                    <p>Great service by this team,no bugs only to say a qaulity work</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="feedbk">
+                    <img src="img/f2.jpg">
+                    <h4>Darren lawson</h4>
+                    <p>Great service by this team,no bugs only to say a qaulity work</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="feedbk">
+                    <img src="img/f3.jpg">
+                    <h4>Sean Strickland</h4>
+                    <p>Great service by this team,no bugs only to say a qaulity work</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="feedbk">
+                    <img src="img/f4.jpg">
+                    <h4>Gaming Ninja</h4>
+                    <p>Great service by this team,no bugs only to say a qaulity work</p>
+                    <p>⭐⭐⭐⭐</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="lists">
+        <section class="popular-genres">
+            <h2>Popular Gaming Genres</h2>
+            <ul>
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>Role-Playing</li>
+                <li>Simulation</li>
+                <li>Strategy</li>
+            </ul>
+        </section>
+
+        <section class="top-games">
+            <h2>Top 5 Games of the Year</h2>
+            <ol>
+                <li>The Legend of Zelda: Breath of the Wild</li>
+                <li>Red Dead Redemption 2</li>
+                <li>The Witcher 3: Wild Hunt</li>
+                <li>God of War</li>
+                <li>Cyberpunk 2077</li>
+            </ol>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="./img/logo.png" alt="logo">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="./contact.html">Contact us</a></li>
+                    <li><a href="./games.html">Games</a></li>
+                    <li><a href="./consoles.html">Consoles</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                Gamingforge © 2024- All rights reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
